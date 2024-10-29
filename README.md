@@ -1,4 +1,5 @@
 # write-good-code
+> "Clean code always looks like it was written by someone who cares." — Robert C. Martin
 
 ## 1. Start with a plan
 
