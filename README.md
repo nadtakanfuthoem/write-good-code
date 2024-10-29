@@ -12,6 +12,7 @@ Think about what you want your code to do. Don't jump into writing code because 
 
 Answering these questions before coding can help you avoid getting lost in rabbit holes for hours or days. It also allows you to solidify your mental conceptualization of how the project will work, validate it against any clear leaps of magical thinking, and develop a set of test cases to check your work against as you go.
 
+> [!TIP]
 ### Tips for developing a high-level plan
 
 Develop a clear **understanding of the problem** you are trying to solve.
@@ -31,3 +32,5 @@ Once you have a plan, check it against any clear leaps of magical thinking to en
 **Use inline comments** to explain your thought process
 
 Once you write your code, include inline comments explaining your actions and why. These comments can be constructive when you or someone else returns to the code later.
+
+Credit: https://www.sitepoint.com/how-to-write-good-code/#4usedatastructuresappropriately
