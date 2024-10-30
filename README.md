@@ -99,7 +99,57 @@ It's important to remember that comments should improve the readability of your 
 * Use clear and concise language in your comments
 * Avoid using acronyms
 * Keep your comments up-to-date with your code. If you change your code, change your comments.
-* Delete obsolete comments 
+* Delete obsolete comments
+
+## 4. Indent your code for readability
+Indenting your code makes it easier to read and helps you spot errors. When your code is indented correctly, it's easier to see the structure of your code and where each section begins and ends. This can be a helpful way to debug your code and find errors.
+
+In JavaScript, the standard indentation is two spaces. In Python, the standard indentation is four spaces. In a language like Python, where indentation is significant, the wrong indentation can cause your code to break.
+
+```
+// Unindented code
+function printHello() {
+console.log("Hello, world!");
+}
+printHello();
+
+// Indented code
+
+function printHello() {
+  console.log("Hello, world!");
+}
+
+printHello();
+```
+You should indent your code when you start a new block. A block is a section of code that is executed together. For example, a block can be a function, an if statement, or a for loop.
+
+## 6. Use whitespace to improve readability
+In addition to indenting your code, you can use whitespace to improve its readability. By adding extra spacing between lines of code, you will make your code easier to scan and understand. This is especially helpful when you are reviewing large blocks of code.
+
+## 7. Use arrays and loops for efficiency
+
+## 8. Write self-documenting code whenever possible
+Self-documenting code is code that is easy to read and understand without the need for comments. This type of code is written in a way that makes its purpose clear.
+
+There are many ways to make your code self-documenting. We've already covered some of them:
+* Use clear and descriptive variable and function names
+* Write short functions that do one thing and do it well
+* Avoid magic numbers(numbers with no apparent meaning) by using named constants.
+* Use whitespace to separate code into logical chunks
+* Use clear and consistent coding conventions. This makes your code easier to read and understand, even for people unfamiliar with your codebase.
+
+## 9. Don't repeat yourself (DRY)
+Don't forget to avoid duplicating code whenever possible. Duplicated code is more challenging to maintain and more error-prone.
+
+Many tools can be employed to avoid duplication in your code.
+* Functions and modules.
+  The function allows you to encapsulate code that you want to reuse.
+* Data structures.
+  Data structures can be used to store information in a way that is easy to access and modify.
+* Inheritance.
+  A more advanced way to avoid duplication is to use inheritance. Inheritance allows code to be shared between classes by having one class inherit from another.
+* Libraries.
+  You can avoid duplication by using tools and libraries. There are many open-source libraries that you can use to perform common tasks.
   
 Credit: https://www.sitepoint.com/how-to-write-good-code/#4usedatastructuresappropriately
 
