@@ -124,7 +124,7 @@ printHello();
 You should indent your code when you start a new block. A block is a section of code that is executed together. For example, a block can be a function, an if statement, or a for loop.
 
 ## 6. Use whitespace to improve readability
-In addition to indenting your code, you can use whitespace to improve its readability. By adding extra spacing between lines of code, you will make your code easier to scan and understand. This is especially helpful when you are reviewing large blocks of code.
+In addition to indenting your code, you can use whitespace to improve its readability. Adding extra spacing between lines of code will make your code easier to scan and understand. This is especially helpful when you are reviewing large blocks of code.
 
 ## 7. Use arrays and loops for efficiency
 
@@ -139,7 +139,7 @@ There are many ways to make your code self-documenting. We've already covered so
 * Use clear and consistent coding conventions. This makes your code easier to read and understand, even for people unfamiliar with your codebase.
 
 ## 9. Don't repeat yourself (DRY)
-Don't forget to avoid duplicating code whenever possible. Duplicated code is more challenging to maintain and more error-prone.
+Remember to avoid duplicating code whenever possible. Duplicated code is more challenging to maintain and more error-prone.
 
 Many tools can be employed to avoid duplication in your code.
 * Functions and modules.
@@ -149,7 +149,16 @@ Many tools can be employed to avoid duplication in your code.
 * Inheritance.
   A more advanced way to avoid duplication is to use inheritance. Inheritance allows code to be shared between classes by having one class inherit from another.
 * Libraries.
-  You can avoid duplication by using tools and libraries. There are many open-source libraries that you can use to perform common tasks.
+  You can avoid duplication by using tools and libraries. There are many open-source libraries that you can use to perform everyday tasks.
+
+> [!TIP]
+> Tips for writing DRY code
+* Avoid repeating yourself by trying to reuse code where possible. If you know you'll be doing something again elsewhere in your code, you can write that code as a discrete entity the first time and avoid returning to refactor.
+* When you reuse code, modularize it. Don't copy the solution to the new location. Instead, move it into the appropriate object or data structure type, then reference it.
+* Refactor your code when you see a significant opportunity to benefit from rewriting it as DRY code. That means restructuring your code without changing its functionality. Refactoring can sometimes be a procrastination stop, but if you realize that you will need parts of a significant function again, it's worth doing it.
+* Use libraries and frameworks to avoid reinventing the wheel. If you should refrain from repeating yourself, why should you write code to solve a problem that's already been solved?
+* Follow the DRY principle when creating documentation - don't duplicate information unnecessarily.
+* You can use explicit variable and function names and comment on your code where necessary.
   
 Credit: https://www.sitepoint.com/how-to-write-good-code/#4usedatastructuresappropriately
 
