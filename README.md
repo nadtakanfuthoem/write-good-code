@@ -35,3 +35,10 @@ Once you have a plan, check it against any clear leaps of magical thinking to en
 Once you write your code, include inline comments explaining your actions and why. These comments can be constructive when you or someone else returns to the code later.
 
 Credit: https://www.sitepoint.com/how-to-write-good-code/#4usedatastructuresappropriately
+
+## 2. Write meaningful variable and function name
+* Use descriptive names: The name of a variable or function should describe its purpose.
+* Avoid single letter name: Unless the meaning is very clear from the context. For example, it's usually okay to use i as an index in a for loop, because that's a common convention.
+* Avoid magic number: A magic number is a numeric literal that's used in the code without clear explaination of its meaning.
+* Decide on a naming convention: Then stick to it.
+* Comment your code: When a clear name is not enough and you do need to review the original function or variable, you will be able to refresh your memory quickly.
